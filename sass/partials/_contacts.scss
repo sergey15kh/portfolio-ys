@@ -1,0 +1,192 @@
+.contacts {
+    margin-top: 314px;
+    
+    .contacts-box {
+        text-align: center;
+
+        .contacts-box-tittle {
+            font-size: 32px;
+            color: $color-textwhite;
+            text-transform: uppercase;
+            line-height: 40px;
+            font-weight: $fw-bold;
+            padding-bottom: 34px;
+        }
+
+        .contacts-item {
+            list-style: none;
+            padding-bottom: 14px;
+
+            .contacts-item-link {
+                font-size: $fs-large;
+                color: $color-text3;
+                line-height: 45px;
+                font-family: $ff-taviraj;
+                font-style: italic;
+                font-weight: $fw-medium;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .overlay-contacts {
+        background-position: center;
+    }
+
+    .contacts {
+        margin-top: 276px;
+    }
+
+    .contacts .contacts-box .contacts-box-tittle {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    .contacts .contacts-box .contacts-item .contacts-item-link {
+        font-size: 35px;
+    }
+
+    .contacts .contacts-box .contacts-item {
+        padding-bottom: 0px;
+    }
+}
+
+
+@media (min-width: 1360px) and (max-width: 1439px) {    .overlay-contacts {
+    background-position: center;
+}
+
+.contacts {
+    margin-top: 276px;
+}
+
+.contacts .contacts-box .contacts-box-tittle {
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+.contacts .contacts-box .contacts-item .contacts-item-link {
+    font-size: 35px;
+}
+
+.contacts .contacts-box .contacts-item {
+    padding-bottom: 0px;
+}}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+    .overlay-contacts {
+        background-position: center;
+    }
+
+    .contacts {
+        margin-top: 276px;
+    }
+
+    .contacts .contacts-box .contacts-box-tittle {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    .contacts .contacts-box .contacts-item .contacts-item-link {
+        font-size: 35px;
+    }
+
+    .contacts .contacts-box .contacts-item {
+        padding-bottom: 0px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .overlay-contacts {
+        background-position: center;
+    }
+
+    .contacts {
+        margin-top: 276px;
+    }
+
+    .contacts .contacts-box .contacts-box-tittle {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    .contacts .contacts-box .contacts-item .contacts-item-link {
+        font-size: 35px;
+    }
+
+    .contacts .contacts-box .contacts-item {
+        padding-bottom: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .overlay-contacts {
+        background-position: center;
+    }
+
+    .contacts {
+        margin-top: 276px;
+    }
+
+    .contacts .contacts-box .contacts-box-tittle {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    .contacts .contacts-box .contacts-item .contacts-item-link {
+        font-size: 35px;
+    }
+
+    .contacts .contacts-box .contacts-item {
+        padding-bottom: 0px;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .overlay-contacts {
+        background-position: center;
+    }
+
+    .contacts {
+        margin-top: 160px;
+    }
+
+    .contacts .contacts-box .contacts-box-tittle {
+        font-size: 23px;
+        padding-bottom: 0px;
+    }
+
+    .contacts .contacts-box .contacts-item .contacts-item-link {
+        font-size: 19px;
+    }
+
+    .contacts .contacts-box .contacts-item {
+        padding-bottom: 0px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .overlay-contacts {
+        background-position: center;
+    }
+
+    .contacts {
+        margin-top: 160px;
+    }
+
+    .contacts .contacts-box .contacts-box-tittle {
+        font-size: 23px;
+        padding-bottom: 0px;
+    }
+
+    .contacts .contacts-box .contacts-item .contacts-item-link {
+        font-size: 19px;
+    }
+
+    .contacts .contacts-box .contacts-item {
+        padding-bottom: 0px;
+    }
+} 

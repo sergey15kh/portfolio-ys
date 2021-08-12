@@ -1,0 +1,65 @@
+.about-first-screen {
+    position: relative;
+
+    .wrapper-about_pages-content {
+        margin-top: 320px;
+        text-align: center;
+
+        .project-pages_description-box_pages {
+            padding-top: 22px;
+            display: flex;
+            justify-content: center;
+            
+            .about_pages-des {
+                max-width: 314px;
+                text-align: left;
+                color: $color-textwhite;
+                line-height: 28px;
+                font-size: $fs-small;
+            }
+        }
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    header, .section-header {
+        .layout {
+            .header_nav {
+                display: none;
+            }
+            
+            .header-burger {
+                display: block;
+            }
+        }
+    }   
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    header, .section-header {
+        .layout {
+            .header_nav {
+                display: none;
+            }
+            
+            .header-burger {
+                display: block;
+            }
+        }
+    } 
+
+    .about-first-screen .wrapper-about_pages-content {
+        margin-top: 213px;
+    }
+
+    .about-first-screen .wrapper-about_pages-content .project-pages_description-box_pages {
+        padding: 22px 10px 0px 10px;
+    }
+
+    .about-first-screen .wrapper-about_pages-content .project-pages_description-box_pages .about_pages-des {
+        text-align: center;
+        line-height: 25px;
+        font-size: 16px;
+    }
+}
+

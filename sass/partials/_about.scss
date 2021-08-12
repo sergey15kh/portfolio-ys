@@ -1,0 +1,102 @@
+.project-pages_about {
+    margin-top: 110px;
+
+    .wrapper-about-content {
+        max-width: 650px;
+        margin-left: 188px;
+
+        .project-pages_description-box {
+            margin-top: 74px;
+            max-width: 540px;
+        }
+
+        .project-pages_description-box_bottom {
+            padding-top: 54px;
+            max-width: 554px;
+            padding-left: 196px;
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+    .project-pages_about {
+        .wrapper-about-content {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    header .layout, .section-header .layout {
+        padding: 0px 20px;
+    }
+
+    .project-pages_about {
+        margin-top: 50px;
+    }
+
+    .project-pages_about .layout {
+        padding: 0px 20px;
+    }
+
+    .project-pages_about {
+		.wrapper-about-content {
+			max-width: 650px;
+			margin: 0 auto;
+
+            .project-pages_description-box {
+                padding-top: 40px;
+                margin: 0 auto;
+            }
+		}
+
+	}
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .project-pages_about {
+        margin-top: 40px;
+    }
+
+    .project-pages_about .layout {
+        padding: 0px 20px;
+    }
+
+    .project-pages_about .wrapper-about-content {
+        margin: 0 auto;
+    }
+
+    .project-pages_about .wrapper-about-content .project-pages_description-box {
+        padding-top: 38px;
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .project-pages_about {
+        margin-top: 40px;
+    }
+
+    .project-pages_about .layout {
+        padding: 0px 20px;
+    }
+
+    .project-pages_about .wrapper-about-content {
+        margin: 0 auto;
+    }
+
+    .project-pages_about .wrapper-about-content .project-pages_description-box {
+        padding-top: 38px;
+        margin: 0 auto;
+    }
+
+    .project-pages_about .wrapper-about-content .project-pages_description-box_bottom {
+        padding-top: 30px;
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+}
+

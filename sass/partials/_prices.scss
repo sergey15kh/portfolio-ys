@@ -1,0 +1,44 @@
+.prices {
+    margin-top: 100px;
+    height: 230px;
+
+    .layout {
+        position: relative;
+
+        .big-text {
+            font-size: $fs-tav-italic-span;
+            font-family: $ff-taviraj;
+            font-weight: $fw-regular;
+            text-transform: lowercase;
+            font-size: 288px;
+            line-height: 183px;
+            color: $color-number;
+            opacity: 0.1;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .wrapper-prices {
+            width: 300px;
+            position: absolute;
+            top: -90px;
+            right: 160px;
+
+            .project-pages_tittle-about {
+                display: flex;
+                flex-direction: column;
+                padding-top: 172px;
+                text-transform: uppercase;
+                color: $color-author;
+                font-size: $fs-large;
+                
+
+                .tittle_about-italic {
+                    font-size: 48px;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.first-screen-tittle {
+    padding-top: 296px;
+
+    .tittle-box {
+        width: 938px;
+        margin: 0 auto;
+
+        .fs-tittle {
+            color: $color-textwhite;
+            font-size: 100px;
+            font-weight: $fw-bold;
+            line-height: 80px;
+            text-transform: uppercase;
+        }
+
+        .fs-tittle:first-child {
+            text-align: center;
+        }
+
+        .fs-tittle:nth-child(2) {
+            text-align: left;
+        }
+
+        .fs-tittle:nth-child(3) {
+            text-align: right;
+        }
+
+        .fs-tittle:last-child {
+            text-align: center;
+        }
+
+        .fs-tittle-italic {
+            color: $color-text2;
+            font-size: 150px;
+            font-family: $ff-taviraj;
+            font-style: italic;
+            font-weight: normal;
+        }
+
+    }
+}

@@ -1,0 +1,209 @@
+.project-pages_fonts-colors {
+    margin-top: 76px;
+
+    .wrapper-fonts-colors-content {
+        max-width: 650px;
+        margin-left: 188px;
+
+        .project-pages_fonts-colors-box {
+            margin-top: 74px;
+            margin-bottom: 50px;
+
+            .fonts-colors__listitems {
+                display: flex;
+                justify-content: space-between;
+
+                // FLORENSI
+                .listitems_florensi {
+                    width: 96px;
+                    height: 96px;
+                }
+    
+                .listitems_florensi:first-child {
+                    background-color: $color-fl-one;
+                }
+    
+                .listitems_florensi:nth-child(2) {
+                    background-color: $color-fl-two;
+                }
+    
+                .listitems_florensi:nth-child(3) {
+                    background-color: $color-fl-three;
+                }
+    
+                .listitems_florensi:nth-child(4) {
+                    background-color: $color-fl-four;
+                }
+    
+                .listitems_florensi:last-child {
+                    background-color: $color-fl-five;
+                }
+
+                // MIO-CARO
+                .listitems_mio-caro {
+                    width: 96px;
+                    height: 96px;
+                }
+    
+                .listitems_mio-caro:first-child {
+                    background-color: $color-mi-one;
+                }
+    
+                .listitems_mio-caro:nth-child(2) {
+                    background-color: $color-mi-two;
+                }
+    
+                .listitems_mio-caro:nth-child(3) {
+                    background-color: $color-mi-three;
+                }
+    
+                .listitems_mio-caro:nth-child(4) {
+                    background-color: $color-mi-four;
+                }
+    
+                .listitems_mio-caro:last-child {
+                    background-color: $color-mi-five;
+                }
+
+                // CACTUSMANIA
+                .listitems_cactusmania {
+                    width: 96px;
+                    height: 96px;
+                }
+    
+                .listitems_cactusmania:first-child {
+                    background-color: $color-cm-one;
+                }
+    
+                .listitems_cactusmania:nth-child(2) {
+                    background-color: $color-cm-two;
+                }
+    
+                .listitems_cactusmania:nth-child(3) {
+                    background-color: $color-cm-three;
+                }
+    
+                .listitems_cactusmania:nth-child(4) {
+                    background-color: $color-cm-four;
+                }
+    
+                .listitems_cactusmania:last-child {
+                    background-color: $color-cm-five;
+                }
+            }
+
+        }
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+    .project-pages_fonts-colors {
+        margin-top: 124px;
+        
+        .wrapper-fonts-colors-content {
+            width: 650px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .project-pages_fonts-colors {
+        margin-top: 74px;
+        
+        .wrapper-fonts-colors-content {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .project-pages_fonts-colors {
+        margin-top: 70px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content {
+        margin: 0 auto;
+        padding: 0px 20px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box .fonts-colors__listitems .listitems_florensi {
+        width: 59px;
+        height: 59px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box .fonts-colors__listitems .listitems_mio-caro {
+        width: 59px;
+        height: 59px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box .fonts-colors__listitems .listitems_cactusmania {
+        width: 59px;
+        height: 59px;
+    }
+    
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box .fonts-colors__listitems .listitems_florensi {
+        margin-right: 10px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box .fonts-colors__listitems .listitems_florensi:last-child {
+        margin-right: 0px;
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .project-pages_fonts-colors {
+        margin-top: 70px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box .fonts-colors__listitems .listitems_florensi {
+        width: 55px;
+        height: 55px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box .fonts-colors__listitems .listitems_mio-caro {
+        width: 55px;
+        height: 55px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box .fonts-colors__listitems .listitems_cactusmania {
+        width: 55px;
+        height: 55px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box .fonts-colors__listitems .listitems_florensi {
+        margin-right: 10px;
+    }
+
+    .project-pages_fonts-colors .wrapper-fonts-colors-content .project-pages_fonts-colors-box .fonts-colors__listitems .listitems_florensi:last-child {
+        margin-right: 0px;
+    }
+
+}
+
+
+ 

@@ -1,0 +1,123 @@
+.project-pages_pagination {
+    margin-top: 100px;
+
+    .wrapper_pagination {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .previous {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+
+            .previous-link {
+                font-size: $fs-large;
+                text-transform: uppercase;
+                font-weight: $fw-semiBold;
+                color: $color-primary;
+                line-height: 37px;
+            }
+
+            .previous-link:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .next {
+            .next-link {
+                font-size: $fs-large;
+                text-transform: uppercase;
+                font-weight: $fw-semiBold;
+                color: $color-primary;
+                line-height: 37px;
+            }
+
+            .next-link:hover {
+                text-decoration: underline;
+            }
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .project-pages_pagination {
+        margin-top: 75px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .project-pages_pagination {
+        margin-top: 75px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .project-pages_pagination {
+        margin-top: 40px;
+    }
+
+    .project-pages_pagination .wrapper_pagination {
+        padding: 0px 10px;
+    }
+
+    .project-pages_pagination .wrapper_pagination .previous .previous-link {
+        font-size: 20px;
+        line-height: 37px;
+    }
+
+    .project-pages_pagination .wrapper_pagination .previous img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .project-pages_pagination .wrapper_pagination .next .next-link {
+        font-size: 20px;
+        line-height: 37px;
+    }
+
+    .project-pages_pagination .wrapper_pagination .next img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .project-pages_pagination {
+        margin-top: 40px;
+    }
+
+    .project-pages_pagination .wrapper_pagination {
+        padding: 0px 10px;
+    }
+
+    .project-pages_pagination .wrapper_pagination .previous .previous-link {
+        font-size: 20px;
+        line-height: 37px;
+    }
+
+    .project-pages_pagination .wrapper_pagination .previous img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .project-pages_pagination .wrapper_pagination .next .next-link {
+        font-size: 20px;
+        line-height: 37px;
+    }
+
+    .project-pages_pagination .wrapper_pagination .next img {
+        width: 15px;
+        height: 15px;
+    }
+}

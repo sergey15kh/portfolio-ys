@@ -1,0 +1,77 @@
+.tittle-author {
+    padding-top: 74px;
+
+    .tittle-author {
+        font-size: $fs-tittle-h2;
+        font-weight: $fw-medium;
+        color: $color-author;
+        line-height: 90px;
+    }
+
+    .box-description {
+        max-width: 444px;
+        margin-left: auto;
+
+        .tittle-author-italic {
+            text-align: right;
+            font-size: $fs-extralarge;
+            font-family: $ff-taviraj;
+            font-weight: $fw-regular;
+            text-transform: lowercase;
+            line-height: 64px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .tittle-author .tittle-author {
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 23px;
+    }
+
+    .tittle-author .box-description .tittle-author-italic {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .tittle-author .box-description {
+        max-width: 444px;
+        margin-left: auto;
+        padding-right: 5px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .tittle-author .tittle-author {
+        font-size: 47px;
+        line-height: 47px;
+        margin-bottom: 20px;
+    }
+
+    .tittle-author {
+        padding-top: 50px;
+    }
+
+    .tittle-author .box-description .tittle-author-italic {
+        font-size: 40px;
+        line-height: 37px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .tittle-author .tittle-author {
+        font-size: 47px;
+        line-height: 47px;
+        margin-bottom: 20px;
+    }
+
+    .tittle-author {
+        padding-top: 50px;
+    }
+
+    .tittle-author .box-description .tittle-author-italic {
+        font-size: 40px;
+        line-height: 37px;
+    }
+} 

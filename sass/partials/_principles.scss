@@ -1,0 +1,111 @@
+.principles {
+    padding-top: 100px;
+    position: relative;
+
+    .principles-list {
+        box-sizing: border-box;
+
+        .principles-item {
+            display: flex;
+            align-items: center;
+            margin-top: 78px;
+
+            .number-item {
+                color: $color-number;
+                margin-right: 28px;
+                font-weight: $fw-medium;
+            }
+
+            .num-1::before {
+                content: '01';
+                position: absolute;
+                top: 170px;
+                left: 0;
+                font-size: 250px;
+                font-weight: $fw-medium;
+                line-height: 313px;
+                color: #c3c9d8;
+                opacity: 0.2;
+                z-index: 1;
+            }
+
+            .num-2::before {
+                content: '02';
+                position: absolute;
+                top: 420px;
+                left: 304px;
+                font-size: 250px;
+                font-weight: $fw-medium;
+                line-height: 313px;
+                color: #c3c9d8;
+                opacity: 0.2;
+                z-index: 1;
+            }
+
+            .num-3::before {
+                content: '03';
+                position: absolute;
+                top: 670px;
+                left: 564px;
+                font-size: 250px;
+                font-weight: $fw-medium;
+                line-height: 313px;
+                color: #c3c9d8;
+                opacity: 0.2;
+                z-index: 1;
+            }
+        }
+
+        .principles-item:first-child {
+            margin-left: 76px;
+        }
+
+        .principles-item:nth-child(2) {
+            margin: 150px 0px 0px 380px;
+        }
+        
+        .principles-item:last-child {
+            margin: 160px 0px 0px 640px;
+        }
+        
+    }
+}
+
+
+@media (width: 1920px){}
+@media (min-width: 1440px) and (max-width: 1919px) {}
+
+@media (min-width: 1360px) and (max-width: 1439px) {}
+
+@media (min-width: 1280px) and (max-width: 1359px) {}
+
+@media (min-width: 1024px) and (max-width: 1279px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {}
+
+@media (min-width: 375px) and (max-width: 767px) {}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .principles {
+        padding-top: 40px;
+    }
+
+    .principles .principles-list .principles-item .num-1::before {
+        top: 85px;
+        left: 0;
+        font-size: 140px;
+        line-height: 231px;
+    }
+
+    .principles .principles-list .principles-item .number-item {
+        margin-right: -80px;
+    }
+
+    .principles .principles-list .principles-item:first-child {
+		margin-left: 40px;
+	}
+
+	.principles .principles-list .principles-item .number-item {
+		margin-right: 30px;
+	}
+} 

@@ -1,0 +1,131 @@
+.project-pages_triangle {
+    margin-top: 240px;
+    margin-bottom: 160px;
+
+    .layout {
+        text-align: center;
+        position: relative;
+
+        .wrapper-triangle {
+            max-height: 610px;
+
+            .triangle-item {
+                position: absolute;
+                top: 45%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 370px 610px 370px;
+                z-index: 2;
+            }
+    
+            .bg_cl-fl {
+                border-color: transparent transparent $color-triangle-fl transparent;
+            }
+    
+            .bg_cl-mi {
+                border-color: transparent transparent $color-triangle-mi transparent;
+            }
+    
+            .bg_cl-cm {
+                border-color: transparent transparent $color-triangle-cm transparent;
+            }
+    
+            .triangle-img {
+                position: relative;
+                z-index: 3;
+                transition: 500ms all ease-in-out;
+            }
+    
+            .triangle-img:hover {
+                transform: scale(1.1);
+                
+            }
+        }
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1439px) {
+    .project-pages_triangle {
+        margin-top: 150px;
+        margin-bottom: 0px;
+
+        .wrapper-triangle {
+            margin: 0 auto;
+        }
+    }
+}
+@media (min-width: 1280px) and (max-width: 1359px) {
+    .project-pages_triangle {
+        margin-top: 150px;
+        margin-bottom: 0px;
+
+        .wrapper-triangle {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .project-pages_triangle {
+        margin-top: 150px;
+        margin-bottom: 0px;
+
+        .wrapper-triangle {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .project-pages_triangle {
+        margin-top: 150px;
+        margin-bottom: 0px;
+
+        .wrapper-triangle {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .project-pages_triangle {
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .project-pages_triangle .layout .wrapper-triangle {
+        width: 260px;
+        height: 231px;
+        margin: 0 auto;
+    }
+
+    .project-pages_triangle .layout .wrapper-triangle .triangle-item {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-width: 0 160px 275px 160px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .project-pages_triangle {
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .project-pages_triangle .layout .wrapper-triangle {
+        width: 260px;
+        height: 231px;
+        margin: 0 auto;
+    }
+
+    .project-pages_triangle .layout .wrapper-triangle .triangle-item {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-width: 0 160px 275px 160px;
+    }
+} 

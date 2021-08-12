@@ -1,0 +1,31 @@
+/* SCSS Compiled */
+@import "global/reset.scss";
+@import "global/mixins.scss";
+@import "global/var.scss";
+@import "global/styles.scss";
+
+// PROJECTS
+@import "partials/about.scss";
+@import "partials/fonts-colors.scss";
+@import "partials/footer.scss";
+@import "partials/header.scss";
+@import "partials/main.scss";
+@import "partials/pagination.scss";
+@import "partials/slider.scss";
+@import "partials/thanks.scss";
+@import "partials/triangle.scss";
+
+// MAIN
+@import "partials/contacts.scss";
+@import "partials/first-screen.scss";
+@import "partials/header-white.scss";
+@import "partials/projects.scss";
+
+@import "partials/about-first-screen.scss";
+@import "partials/about-full-screen.scss";
+@import "partials/tittle-author.scss";
+@import "partials/about-author.scss";
+@import "partials/education.scss";
+@import "partials/principles.scss";
+@import "partials/workflow.scss";
+@import "partials/prices.scss";

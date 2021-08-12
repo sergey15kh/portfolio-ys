@@ -1,0 +1,44 @@
+.project-pages_thanks {
+    margin-top: 100px;
+
+    .wrapper-thanks-content {
+        width: 792px;
+        margin-left: 188px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .project-pages_thanks {
+        margin-top: 80px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .project-pages_thanks {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .project-pages_thanks .wrapper-thanks-content {
+        width: auto;
+        margin: 0 auto;
+        padding: 0px 10px;
+    }
+
+    .project-pages_thanks {
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .project-pages_thanks .wrapper-thanks-content {
+        width: auto;
+        margin: 0 auto;
+        padding: 0px 10px;
+    }
+
+    .project-pages_thanks {
+        margin-top: 70px;
+    }
+
+}

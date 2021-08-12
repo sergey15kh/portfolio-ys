@@ -1,0 +1,22 @@
+.education {
+    margin-top: 98px;
+    max-width: 760px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .education {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .education {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .education {
+        margin-top: 40px;
+    }
+} 
